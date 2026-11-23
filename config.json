@@ -1,0 +1,23 @@
+{
+  "topic": "ترفندهای کاربردی آشپزخانه و خانه‌داری (آشپزی ساده، نظافت سریع، صرفه‌جویی، چیدمان)",
+  "language_name": "Persian (Farsi)",
+  "language_code": "fa",
+  "tts_voice": "fa-IR-FaridNeural",
+  "brand_handle": "asandaneh.shop",
+  "timezone": "Asia/Tehran",
+  "horizon_days": 7,
+  "min_pending": 6,
+  "max_attempts": 3,
+  "gemini_model": "gemini-2.5-flash",
+  "slots": [
+    {"time": "13:00", "type": "STORY"},
+    {"time": "18:30", "type": "REEL"},
+    {"time": "21:00", "type": "STORY"},
+    {"time": "19:30", "type": "CAROUSEL", "weekdays": [0, 2, 4]}
+  ],
+  "strings": {
+    "swipe": "← بکشید",
+    "default_cta": "ذخیره کن و برای یک دوست بفرست"
+  },
+  "media_base_url": ""
+}
